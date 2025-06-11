@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>facebook design</title>
+        <style>
+            p{
+                font-family: arial;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+            .vertical{
+                box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
+                width: 200px;
+                vertical-align: top;
+                margin-right: 15px;
+            }
+            .horizantal{
+                display: grid;
+                grid-template-columns: 35px 1fr;
+                margin-left: 10px;
+                margin-bottom: 10px;
+                align-items: center;
+            }
+            .image{
+                width: 200px;
+                height: 200px;
+
+                margin-bottom: 10px;
+            }
+            .name{
+                font-size: 20px;
+                font-weight: bold;
+                margin-left: 10px;
+                margin-bottom: 10px;
+            }
+            .profile{
+                width: 28px;
+                height: 28px;
+                margin-right: 10px;
+                border-radius: 14px;
+                vertical-align: middle;
+            }
+            .friends{
+                color: rgb(155, 149, 149);
+            }
+            .add{
+                background-color: rgb(54, 129, 228);
+                color: white;
+                padding: 10px 15px 10px 15px;
+                border: none;
+                border-radius: 5px;
+                margin-left: 10px;
+                margin-bottom: 10px;
+            }
+            .grid{
+                display: grid;
+                grid-template-columns: 200px 200px 200px;
+                column-gap: 5px;
+                
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="grid">
+            <div class="vertical">
+                <img class="image" src="images/kanni.jpg" alt="">
+                <p class="name">Oliver</p>
+                <div class="horizantal">
+                    <img class="profile" src="images/stone.jpg" alt="">
+                    <p class="friends">2 mutual friends</p>
+                </div>
+                <button class="add">Add Friend</button>
+            </div>
+            <div class="vertical">
+                <img class="image" src="images/kitty.jpeg" alt="">
+                <p class="name">Kitty</p>
+                <div class="horizantal">
+                    <img class="profile" src="images/stone.jpg" alt="">
+                    <p class="friends">3 mutual friends</p>
+                </div>
+                <button class="add">Add Friend</button>
+            </div>
+            <div class="vertical">
+                <img class="image" src="images/mimi.jpg" alt="">
+                <p class="name">Mimi</p>
+                <div class="horizantal">
+                    <img class="profile" src="images/stone.jpg" alt="">
+                    <p class="friends">4 mutual friends</p>
+                </div>
+                <button class="add">Add Friend</button>
+            </div>
+        </div>
+        
+    </body>
+</html>
