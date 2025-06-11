@@ -1,0 +1,50 @@
+p{
+                font-family: arial;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+            .horizantal{
+                display: inline-block;
+                box-shadow: 0px 1px 5px rgba(0,0,0, 0.3);
+                width: 200px;
+                margin-right: 10px;
+            }
+            .kitten{
+                height: 200px;
+                width: 200px;
+                margin-bottom: 10px;
+                
+            }
+            .name{
+                font-weight: bold;
+                font-size: 20px;
+                margin-bottom: 10px;
+                margin-left: 10px;
+            }
+            .profile{
+                width: 40px;
+                height: 40px;
+                border-radius: 20px;
+                vertical-align: middle;
+                margin-right: 4px;
+                
+            } 
+            .info{
+                color: rgb(122, 122, 122);
+                vertical-align: middle;
+                font-size: 15px;
+                display: inline-block;
+            }
+            .horizantal-layout{
+                margin-left: 10px;
+                margin-bottom: 10px;
+            }         
+            .add{
+                background-color: rgb(60, 91, 231);
+                color: white;
+                border: none;
+                padding: 10px 15px 10px 15px;
+                border-radius: 4px;
+                margin-bottom: 10px;
+                margin-left: 10px;
+            }
