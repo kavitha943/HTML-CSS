@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                font-family: arial;
+                font-size: 14px;
+            }
+            .container{
+                display: flex;
+                flex-direction: row;
+                width: 420px;
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
+            .image{
+                margin-right: 10px;
+
+            }
+            .user-profile-picture{
+                height: 60px;
+                width: 60px;
+                border-radius: 30px;
+                object-fit: cover;
+            }
+            .creater-update{
+                flex: 1;
+                
+            }
+            .tweet-header{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 5px;
+            }
+            .user-name{
+                font-weight: bold;
+                margin-right: 5px;
+            }
+            .user-handle{
+                color: gray;
+
+            }
+            .new-update{
+                line-height: 20px;
+                margin-bottom: 15px;
+                
+                
+            }
+            .video-update{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                border-width: 1px;
+                border-style: solid;
+                border-color: rgb(200,200,200);
+                border-radius: 15px;
+                overflow: hidden;
+            }
+            .youtube-link{
+                
+                width: 100px;
+                height: 100px;
+                background-color: rgb(220, 220, 220);
+                margin-right: 10px;
+            }
+            .youtube-handle{
+                flex: 1;
+            }
+            .youtube{
+                color: gray;
+                margin-bottom: 3px;
+            }
+            .video-about{
+                line-height: 22px;
+            }
+            
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="image"><img class="user-profile-picture" src="images/kanni.jpg" alt=""></div>
+            <div class="creater-update">
+                <div class="tweet-header">
+                    <div class="user-name">supersimple.dev</div>
+                    <div class="user-handle">@SuperSimpleDev</div>
+                </div>
+                <div class="new-update">
+                    What is backend web development? A complete overview. New video is up!
+                </div>
+                <div class="video-update">
+                    <div class="youtube-link"></div>
+                    <div class="youtube-handle">
+                        <div class="youtube">youtube.com</div>
+                        <div class="video-about">Backend web development - a complete overview (2021)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
