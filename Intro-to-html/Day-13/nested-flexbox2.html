@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .container{
+                display: flex;
+                flex-direction: row;
+
+            }
+            .right-section{
+                width: 200px;
+                           
+            }
+            .row2{
+                background-color: black;
+                color: white;
+                margin-top: 0px;
+                margin-bottom: 15px;
+            }
+            .nested-flex{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div style="width: 100px;
+            background-color: lightpink;"></div>
+            <div style="background-color: lightblue;" class="right-section">
+                <div>row1</div>
+                <div class="nested-flex">
+                    <p class="row2">row2</p>
+                    <p class="row2">row2</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
