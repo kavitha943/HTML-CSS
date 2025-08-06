@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                height: 3000px;
+            }
+            .container{
+                position: relative;
+                display: inline-block;
+                
+            }
+            .image{
+                height: 300px;
+                width: 300px;
+                
+            }
+            .offer-tag{
+                background-color: black;
+                position: absolute;
+                top: 5px;
+                right: 0px;
+                color: white;
+                font-family: arial;
+                padding: 5px;
+
+            } 
+            .button-overlay{
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+                right: 0px;
+                height: 80px;
+                background-color: rgba(255,255,255,0.7);
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }  
+            .button{
+                background-color: white;
+                border-color: black;
+                border-style: solid;
+                border-width: 1px;
+                padding: 4px 10px 4px;
+            }    
+            
+            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img class="image" src="images/baby-dress.jpg" alt="">
+            <div class="offer-tag">20% OFF</div>
+            <div class="button-overlay">
+                <button class="button"> Add to Cart</button>    
+            </div>
+        </div>
+    </body>
+</html>
