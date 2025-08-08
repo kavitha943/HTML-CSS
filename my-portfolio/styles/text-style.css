@@ -1,0 +1,30 @@
+p,h1,h2{
+    font-family: arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+.name{
+    font-size: 25px;
+}
+.profession{
+   color: rgb(25, 186, 197);
+}
+.who{
+    font-size: 20px;
+}
+.info,.email-address{
+    font-size: 12px;
+    margin-bottom: 6px;
+    color: rgb(182, 181, 181);
+    line-height:  1.5;
+}
+.email{
+    font-size: 12px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+.email-address{
+    line-height: 0;
+    margin-bottom: 25px;
+}
