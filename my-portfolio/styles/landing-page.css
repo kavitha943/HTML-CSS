@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(0, 48, 56);
+}
+.profile-picture{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    box-shadow: 0 0 15px 5px rgb(25, 186, 197,0.5);
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 100px;
+}
+.intro-info{
+    display: inline-block;
+    width: 500px;
+}
+
+
+
