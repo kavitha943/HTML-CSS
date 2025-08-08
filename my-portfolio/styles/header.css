@@ -1,0 +1,21 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(2, 15, 17);
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 800px;
+    padding-right: 50px;
+    
+} 
+
+div{
+    color: white;
+    font-family: arial;
+    font-size: 12px;
+    justify-items: space-between;
+}
