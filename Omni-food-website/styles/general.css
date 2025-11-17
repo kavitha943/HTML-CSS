@@ -50,6 +50,7 @@ Primary: #e67e22
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -57,6 +58,9 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+
+  /* only works if there is nothing absolutely positioned in relation to body */
+  overflow-x: hidden;
 }
 
 /****************************/
@@ -235,6 +239,7 @@ body {
   align-items: center;
   gap: 1.6rem;
   margin-bottom: 1.6rem;
+  line-height: 1.6;
 }
 
 .list-icon {
