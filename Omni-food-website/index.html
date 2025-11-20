@@ -16,7 +16,7 @@
     <title>Omnifood</title>
   </head>
   <body>
-    <header class="header js-nav-open">
+    <header class="header">
       <a href="">
         <img class="logo" src="img/omnifood-logo.png" alt="Omni food logo" />
       </a>
@@ -46,6 +46,7 @@
         <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
       </button>
     </header>
+
     <main>
       <section class="section-hero">
         <div class="hero">
@@ -58,7 +59,7 @@
               eat healthy again. Tailored to your personal tastes and
               nutritional needs.
             </p>
-            <a href="#" class="btn btn--full margin-right-sm"
+            <a href="#section-cta" class="btn btn--full margin-right-sm"
               >Start eating well</a
             >
             <a href="#" class="btn btn--outline">Learn more &darr;</a>
@@ -639,7 +640,8 @@
           </ul>
 
           <p class="copyright">
-            Copyright &copy; 2025 by omnifood, Inc. All Rights Reserved.
+            Copyright &copy; <span class="year">2024</span> by omnifood, Inc.
+            All Rights Reserved.
           </p>
         </div>
 
@@ -687,6 +689,13 @@
         </nav>
       </div>
     </footer>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
+    <script defer src="script.js"></script>
 
     <!-- script for icons used in this website -->
     <script
